@@ -1,7 +1,5 @@
-let PLACEHOLDER = '.counter-display';
-
-let counterPlusElem = document.querySelector('.button1');
-let conterDisplayElem = document.querySelector(PLACEHOLDER);
+let counterPlusElem = document.querySelector('.button-small');
+let conterDisplayElem = document.querySelector('.counter-display');
 let count = 0;
 
 counterPlusElem.addEventListener("click",()=>{
