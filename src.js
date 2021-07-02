@@ -3,7 +3,7 @@ let conterDisplayElem = document.querySelector('counter-display');
 let count = 0;
 
 counterPlusElem.addEventListener("click",()=>{
-  counter++;
+  count++;
   updateDisplay();
 });
 
