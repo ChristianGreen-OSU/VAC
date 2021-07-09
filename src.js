@@ -1,6 +1,6 @@
-let counterDisplayElem = document.querySelector('.counter-display');
-let counterMinusElem = document.querySelector('.counter-minus');
-let counterPlusElem = document.querySelector('.counter-plus');
+let counterDisplayElem = document.querySelector('counter-display');
+let counterMinusElem = document.querySelector('counter-minus');
+let counterPlusElem = document.querySelector('counter-plus');
 
 let count = 0;
 
@@ -19,3 +19,4 @@ counterMinusElem.addEventListener("click",()=>{
 function updateDisplay(){
     counterDisplayElem.innerHTML = count;
 };
+
